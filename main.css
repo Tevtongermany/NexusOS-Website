@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+
+.Title {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.Description {
+
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.Buttons {
+
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+.invitebutton {
+    background-color: #4FB364;
+    color: #ffffff;
+    border: 1px solid #4FB364;
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 'Roboto', sans-serif;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .15s ease-out;
+}
+.donatebutton {
+    background-color: #38c2c2;
+    color: #ffffff;
+    border: 1px solid #38c2c2;
+    align-content: center;
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 'Roboto', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .15s ease-out;
+
+}
+.discordbutton {
+    background-color: #2270af;
+    color: #ffffff;
+    border: 1px solid #2270af;
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 'Roboto', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    size: 100px;
+    transition: .15s ease-out;
+
+}
+.invitebutton:hover {
+    transform: translateY(-5px);
+}
+.donatebutton:hover {
+    transform: translateY(-5px);
+
+}
+.discordbutton:hover {
+    transform: translateY(-5px);
+}
+
+
